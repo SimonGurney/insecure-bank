@@ -1,2 +1,6 @@
-- name: semgrep-action
-  uses: semgrep/semgrep-action@v1
+name: ci
+on: [push]
+jobs:
+  run:
+    - name: semgrep-action
+      uses: semgrep/semgrep-action@v1
