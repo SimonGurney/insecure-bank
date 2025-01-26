@@ -17,4 +17,4 @@ jobs:
         architecture: x64
     - name: Run tests
       run: mvn -B package
-
+    - uses: semgrep/semgrep-action@v1
